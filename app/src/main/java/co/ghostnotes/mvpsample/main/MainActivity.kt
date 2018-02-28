@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity(), HasSupportFragmentInjector, MainContra
 
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                    .add(R.id.content_frame, MainFragment(), "Main")
+                    .add(R.id.content_frame, MainFragment(), FRAGMENT_TAG_MAIN)
                     .commit()
         }
     }
@@ -41,6 +41,8 @@ class MainActivity : AppCompatActivity(), HasSupportFragmentInjector, MainContra
     }
 
     companion object {
+
+        private const val FRAGMENT_TAG_MAIN = "co.ghostnotes.mvpsample.FRAGMENT_TAG_MAIN"
 
         fun getCallingIntent(context: Context): Intent =
                 Intent(context, MainActivity::class.java)
