@@ -62,6 +62,8 @@ dependencies {
 
     // Test
     testImplementation "junit:junit:$junit_version"
+    testImplementation "org.mockito:mockito-core:$mockito_version"
+    testImplementation "com.nhaarman:mockito-kotlin:$mockito_kotlin_version"
 
     // Android Test
     androidTestImplementation "com.android.support.test:runner:$test_runner_version"

@@ -38,6 +38,8 @@ ext {
 
     // Test
     junit_version = '4.12'
+    mockito_version = '2.13.0'
+    mockito_kotlin_version = '1.5.0'
 
     // Android test
     test_runner_version = '1.0.1'
