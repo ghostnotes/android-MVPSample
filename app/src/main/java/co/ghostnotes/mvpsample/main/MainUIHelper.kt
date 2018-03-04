@@ -8,4 +8,6 @@ class MainUIHelper {
         Log.d("TEST", "### Hi!")
     }
 
+    fun getText() = "text"
+
 }

@@ -20,6 +20,7 @@ android {
         versionName VERSION_NAME
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -42,6 +43,10 @@ android {
 
     dataBinding {
         enabled = true
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
     }
 
 }
