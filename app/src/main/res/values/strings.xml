@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MVP Sample</string>
+
+    <!-- Toolbar title -->
+    <string name="toolbar_title_add_task">Add task</string>
+
 </resources>

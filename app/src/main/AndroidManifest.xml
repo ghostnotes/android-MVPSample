@@ -17,6 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".addtask.AddTaskActivity"
+            android:label="@string/toolbar_title_add_task"/>
+
     </application>
 
 </manifest>
